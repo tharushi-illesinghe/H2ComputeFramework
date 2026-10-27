@@ -54,9 +54,9 @@ public class BaseClass  {
         logger.info("Browser Launched : " +browser);
 
         driver.manage().window().maximize();
-        driver.manage().timeouts().
-                implicitlyWait(Duration.ofSeconds
-                (Long.parseLong(properties.getProperty("implicit_wait"))));
+//        driver.manage().timeouts().
+//                implicitlyWait(Duration.ofSeconds
+//                (Long.parseLong(properties.getProperty("implicit_wait"))));
 
         driver.get(properties.getProperty("App_URL"));
     }

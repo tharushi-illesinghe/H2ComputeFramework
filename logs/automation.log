@@ -1,17 +1,36 @@
-2026-10-27 11:38:28 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+2026-10-27 16:23:02 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\LENOVO\AppData\Local\JetBrains\IntelliJIdea2025.2\temp-testng-customsuite.xml
 
-2026-10-27 11:38:30 [main] INFO  Base.BaseClass - Browser Launched : chrome
-2026-10-27 11:39:56 [main] INFO  testCases.TC001_RegisterUserTest - ***Starting User Registration Test***
-2026-10-27 11:39:59 [main] INFO  testCases.TC001_RegisterUserTest - First Name Entered
-2026-10-27 11:39:59 [main] INFO  testCases.TC001_RegisterUserTest - Last Name Entered
-2026-10-27 11:39:59 [main] INFO  testCases.TC001_RegisterUserTest - Email Entered
-2026-10-27 11:39:59 [main] INFO  testCases.TC001_RegisterUserTest - Country Selected
-2026-10-27 11:40:00 [main] INFO  testCases.TC001_RegisterUserTest - Username Entered
-2026-10-27 11:40:00 [main] INFO  testCases.TC001_RegisterUserTest - Password Entered
-2026-10-27 11:40:00 [main] INFO  testCases.TC001_RegisterUserTest - Confirm Password Entered
-2026-10-27 11:40:07 [main] INFO  testCases.TC001_RegisterUserTest - Submit Button Clicked
-2026-10-27 11:40:07 [main] INFO  testCases.TC001_RegisterUserTest - User Registration Attempted
-2026-10-27 11:40:07 [main] INFO  testCases.TC001_RegisterUserTest - User Registration Successful
-2026-10-27 11:40:07 [main] INFO  testCases.TC001_RegisterUserTest - ***Ending User Registration Test***
-2026-10-27 11:40:07 [main] INFO  Base.BaseClass - Browser Closed
+2026-10-27 16:23:06 [main] INFO  Base.BaseClass - Browser Launched : chrome
+2026-10-27 16:23:07 [main] INFO  testCases.TC001_E2EPurchaseTest - ***Starting E2E Purchase Test***
+2026-10-27 16:23:07 [main] INFO  testCases.TC001_E2EPurchaseTest - **Starting LogInTest**
+2026-10-27 16:23:07 [main] INFO  pages.LogIn - Entered username: standard_user
+2026-10-27 16:23:07 [main] INFO  testCases.TC001_E2EPurchaseTest - Entered username
+2026-10-27 16:23:07 [main] INFO  pages.LogIn - Entered password: secret_sauce
+2026-10-27 16:23:07 [main] INFO  testCases.TC001_E2EPurchaseTest - Entered password
+2026-10-27 16:23:07 [main] INFO  pages.LogIn - Clicked login button
+2026-10-27 16:23:07 [main] INFO  testCases.TC001_E2EPurchaseTest - Clicked login button
+2026-10-27 16:23:07 [main] INFO  testCases.TC001_E2EPurchaseTest - **LogInTest Completed**
+2026-10-27 16:23:07 [main] INFO  testCases.TC001_E2EPurchaseTest - **Starting ViewItemsTest**
+2026-10-27 16:23:08 [main] INFO  pages.ViewItems - Clicked 'Add to cart' button at index: 0
+2026-10-27 16:23:08 [main] INFO  testCases.TC001_E2EPurchaseTest - Clicked 'Add to cart' button for the first item
+2026-10-27 16:23:08 [main] INFO  pages.ViewItems - Clicked 'Add to cart' button at index: 1
+2026-10-27 16:23:08 [main] INFO  testCases.TC001_E2EPurchaseTest - Clicked 'Add to cart' button for the second item
+2026-10-27 16:23:08 [main] INFO  pages.ViewItems - Clicked on shopping cart link
+2026-10-27 16:23:08 [main] INFO  testCases.TC001_E2EPurchaseTest - Clicked on shopping cart link
+2026-10-27 16:23:08 [main] INFO  testCases.TC001_E2EPurchaseTest - **ViewItemsTest Completed**
+2026-10-27 16:23:08 [main] INFO  testCases.TC001_E2EPurchaseTest - **Starting ViewCartTest**
+2026-10-27 16:23:08 [main] INFO  pages.ViewCart - Clicked on checkout button
+2026-10-27 16:23:08 [main] INFO  testCases.TC001_E2EPurchaseTest - Clicked on checkout button
+2026-10-27 16:23:08 [main] INFO  testCases.TC001_E2EPurchaseTest - **ViewCartTest Completed**
+2026-10-27 16:23:08 [main] INFO  testCases.TC001_E2EPurchaseTest - **Starting CheckoutTest**
+2026-10-27 16:23:08 [main] INFO  pages.Checkout - Entered first name: John
+2026-10-27 16:23:08 [main] INFO  testCases.TC001_E2EPurchaseTest - Entered first name
+2026-10-27 16:23:08 [main] INFO  pages.Checkout - Entered last name: Doe
+2026-10-27 16:23:08 [main] INFO  testCases.TC001_E2EPurchaseTest - Entered last name
+2026-10-27 16:23:09 [main] INFO  pages.Checkout - Entered postal code: 12345
+2026-10-27 16:23:09 [main] INFO  testCases.TC001_E2EPurchaseTest - Entered postal code
+2026-10-27 16:23:09 [main] INFO  pages.Checkout - Clicked on continue button
+2026-10-27 16:23:09 [main] INFO  testCases.TC001_E2EPurchaseTest - Entered checkout information and clicked continue
+2026-10-27 16:23:09 [main] INFO  testCases.TC001_E2EPurchaseTest - **CheckoutTest Completed**
+2026-10-27 16:23:09 [main] INFO  testCases.TC001_E2EPurchaseTest - **Starting CheckoutOverviewTest**
